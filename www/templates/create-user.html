@@ -1,0 +1,23 @@
+<ion-view view-title="Criar conta">
+    <ion-content class="padding">
+        <div class="list">
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Nome</span>
+                <input type="text" placeholder="João Silva">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Email</span>
+                <input type="text" placeholder="email@domain.com">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Senha</span>
+                <input type="password" placeholder="******">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Confirmar Senha</span>
+                <input type="password" placeholder="******">
+            </label>
+        </div>
+        <button ng-click="createUser()" class="button button-block button-balanced">Cadastrar</button>
+    </ion-content>
+</ion-view>
