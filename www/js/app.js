@@ -3,8 +3,7 @@
 
     angular
         .module('ionicTest', [
-            'ionic',
-            'ionicTest.services'
+            'ionic'
         ]);
 
     angular
